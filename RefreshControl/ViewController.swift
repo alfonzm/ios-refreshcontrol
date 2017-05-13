@@ -67,7 +67,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 	func scrollViewDidScroll(_ scrollView: UIScrollView) {
 		let offset = scrollView.contentOffset.y
 		
-		if offset < -150 {
+		if offset < -194 {
 			setRefreshControlText("Loading...")
 		}
 	}
